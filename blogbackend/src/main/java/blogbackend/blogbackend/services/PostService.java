@@ -10,6 +10,7 @@ import org.springframework.stereotype.Service;
 import blogbackend.blogbackend.model.Post;
 import blogbackend.blogbackend.repository.PostRepository;
 
+
 @Service
 @Transactional
 public class PostService {
