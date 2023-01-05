@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
 
-export default function CartaPublicaciones() {
+export function CartaPublicaciones() {
 
     const url2 = "http://localhost:8080/allPost"
 

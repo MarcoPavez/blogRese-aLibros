@@ -1,21 +1,17 @@
 import React from "react";
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import {HomePage } from "./pages";
-import Publicacion from "./pages/PublicacionPage";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HomePage, Publicacion } from "./pages";
 
-const App =()=>{
-    return(
-        //desde el navegador 
-        <BrowserRouter>
-        {/* Vamos a tener distintas rutas */}
-            <Routes>
-                {/* Expecificamos cada ruta */}
-                <Route path="/" element={<HomePage/>}/>
-                {/* <Route path="/Auto" element={<AutoPage/>}/> */}
-                <Route path="/Publicaciones" element={<Publicacion/>}/>
-            </Routes>
-        </BrowserRouter>
-    )
-}
+const App = () => {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
 
-export default App;
+         <Route path="/Publicacion" element={<Publicacion />} /> 
+      </Routes>
+    </BrowserRouter>
+  );
+};
+
+export default App

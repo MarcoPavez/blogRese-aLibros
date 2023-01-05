@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-import {url} from './Config';
+import url from './Config';
 
 const addPost = async(post)=>{
     const res = await axios.post(url + "/post", post);
