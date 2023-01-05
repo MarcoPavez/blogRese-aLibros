@@ -9,10 +9,10 @@ import blogbackend.blogbackend.model.PostCategories;
 
 public interface PostCategoriesRepository extends JpaRepository<PostCategories,Integer>{
 
-    @Query(value="SELECT * FROM bbdd_blog.postcategories WHERE categoria = ?1", nativeQuery=true)
+    @Query(value="SELECT * FROM postcategories WHERE categoria = ?1", nativeQuery=true)
     List<PostCategories> categoriaSeleccionada(String categoria);
 
-    @Query(value="SELECT * FROM bbdd_blog.postcategories WHERE subcategoria = ?1", nativeQuery=true)
+    @Query(value="SELECT * FROM postcategories WHERE subcategoria = ?1", nativeQuery=true)
     List<PostCategories> subCategoriaSeleccionada(String subcategoria);
     
 }
