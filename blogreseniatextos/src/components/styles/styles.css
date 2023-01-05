@@ -1,0 +1,50 @@
+#divPaginas {
+   
+    float: left;
+    height: 25px;
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+}
+
+#headerNav li {
+
+    list-style: none;
+    margin-left: 50px;
+    font-size: smaller;
+    float: left;
+
+}
+
+
+#imagenCielo {
+    height: 200px;
+    width: 1200px;
+    border-top-style: solid;
+    border-bottom-style: double;
+    border-width: 5px;
+}
+
+#formNavBar {
+    display: flex;
+}
+
+#inputNavBar {
+    margin-left: 400px;
+}
+
+
+/* Footer */
+
+#footerDiv {
+
+    border-top-style: double;
+    border-width: 3px;
+}
+
+/* CartaPublicaciones */
+
+/* #displayPublicaciones{
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 1fr);
+} */

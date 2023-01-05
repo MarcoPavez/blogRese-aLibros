@@ -1,6 +1,7 @@
 import React from "react";
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import { AutoPage, HomePage } from "./pages";
+import {HomePage } from "./pages";
+import Publicacion from "./pages/PublicacionPage";
 
 const App =()=>{
     return(
@@ -10,7 +11,8 @@ const App =()=>{
             <Routes>
                 {/* Expecificamos cada ruta */}
                 <Route path="/" element={<HomePage/>}/>
-                <Route path="/Auto" element={<AutoPage/>}/>
+                {/* <Route path="/Auto" element={<AutoPage/>}/> */}
+                <Route path="/Publicaciones" element={<Publicacion/>}/>
             </Routes>
         </BrowserRouter>
     )
