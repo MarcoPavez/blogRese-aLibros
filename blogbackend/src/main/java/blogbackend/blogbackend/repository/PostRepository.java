@@ -14,6 +14,5 @@ public interface PostRepository extends JpaRepository<Post,Long>{
     @Query(value="SELECT * FROM post WHERE fecha = ?1", nativeQuery = true)
     List<Post> postSeleccionado (Date fecha);
 
-    Optional<Post> findByNombre(String nombre);
     
 }

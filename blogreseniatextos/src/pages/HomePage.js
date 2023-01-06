@@ -6,21 +6,18 @@ import { CartaPublicaciones } from "../components/CartaPublicaciones";
 
 /* import Top from "../components/Top"; */
 
-
 const Homepage = () => {
-    /* const navigate = useNavigate();  */
+  /* const navigate = useNavigate();  */
 
-    return (
-
-        <div class="container">
-            <Header />
-            <div class="row">
-               <CartaPublicaciones/>
-            </div>
-            <Footer />
-        </div>
-
-    )
-}
+  return (
+    <div class="container">
+      <Header />
+      <div class="row">
+        <CartaPublicaciones />
+      </div>
+      <Footer />
+    </div>
+  );
+};
 
 export default Homepage;

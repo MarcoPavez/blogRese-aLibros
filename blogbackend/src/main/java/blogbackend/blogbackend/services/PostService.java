@@ -11,7 +11,7 @@ public interface PostService {
     
     Post getPost(Long id);
 
-    Post save (Post user);
+    Post save (Post post);
 
     void delete (Long id);
 

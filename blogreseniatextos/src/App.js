@@ -8,10 +8,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<HomePage />} />
 
-         <Route path="/Publicacion" element={<Publicacion />} /> 
+        <Route path="/Publicacion" element={<Publicacion />} />
       </Routes>
     </BrowserRouter>
   );
 };
 
-export default App
+export default App;

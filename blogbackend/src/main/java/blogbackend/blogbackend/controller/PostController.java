@@ -35,7 +35,7 @@ public class PostController {
         return postService.getPost(id);
     }
 
-    @PutMapping("/post")
+    @PutMapping("/update/post")
     public Post updatePost(@RequestBody Post post) {
         return postService.save(post);
     }

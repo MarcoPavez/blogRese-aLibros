@@ -3,7 +3,7 @@ import "./styles/styles.css";
 
 const Footer = () => {
   return (
-    <footer id="footerDiv" class="text-center">
+    <footer id="footerDiv" class="text-center fixed-bottom d-flex justify-content-center">
       <div>
         <div class="row">
           <div class="col-auto">
@@ -27,12 +27,7 @@ const Footer = () => {
             </button>
           </div>
 
-          <div class="text-center text-dark p-3">
-            © 2020 Copyright:
-            <a class="text-dark" href="https://mdbootstrap.com/">
-              MDBootstrap.com
-            </a>
-          </div>
+          <div class="text-center text-dark p-3">© 2023 No Copyright</div>
         </div>
       </div>
     </footer>
