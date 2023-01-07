@@ -15,23 +15,18 @@ const Header = () => {
 
       <div id="containerNavBar">
         <nav id="navBar" class="navbar navbar-expand-lg">
-          <div class="container-fluid ">
-            <ul>
-              <li class="text-center d-flex justify-content-center align-items-center">
-            <a
-              class="navbar-brand ms-5"
-              href="/"
-            >
-              <b>LaD</b>
-            </a>
-            </li>
-            </ul>
+          <div>
             <div
-              class="collapse navbar-collapse ms-4 container"
+              class="navbar-collapse"
               id="navbarSupportedContent"
             >
               <ul class="navbar-nav">
-                <li class="nav-item text-center">
+                <li class="text-center">
+                  <a class="nav-link active" aria-current="page" href="/">
+                   <strong> LaD </strong>
+                  </a>
+                </li>
+                <li class=" text-center">
                   <a
                     class="nav-link active"
                     aria-current="page"
@@ -78,14 +73,14 @@ const Header = () => {
               <form id="formNavBar" role="search">
                 <input
                   id="inputNavBar"
-                  class="form-control me-2"
+                  class="form-control"
                   type="search"
                   placeholder="Buscar"
                   aria-label="Search"
                 />
                 <button
                   id="botonNavBar"
-                  class="btn btn-outline-success"
+                  class="btn btn-outline-success ms-md-3"
                   type="Enviar"
                 >
                   Enviar

@@ -18,10 +18,15 @@ const Homepage = () => {
       </div>
       <div class="container">
         <Header />
+        
+          <h3 class="text-center" id="headerPublicacionesRecientes">
+            Publicaciones recientes
+          </h3>
+        
         <div class="row">
           <CartaPublicaciones />
         </div>
-        <div class="row">
+        <div class="row mt-md-4 mb-md-4">
           <Body />
           <SideBar />
         </div>

@@ -22,7 +22,7 @@ export function CartaPublicaciones() {
     .map((post) => {
       return (
         <div class="col-4 d-flex justify-content-evenly" id="divCartas">
-          <div id="cartas" class="card mb-md-4" key={post.id}>
+          <div id="cartas" class="card mb-md-4 mt-md-3" key={post.id}>
             <div class="row g-0">
               <div class="col-md-5">
                 <img
@@ -35,7 +35,9 @@ export function CartaPublicaciones() {
               <div class="col-md-6 mt-md-1">
                 <div>
                   <h5 class="class-title text-center ms-md-5">{post.titulo}</h5>
-                  <p class="card-body" id="cuerpoCartas">{post.cuerpo}</p>
+                  <p class="card-body" id="cuerpoCartas">
+                    {post.cuerpo}
+                  </p>
                 </div>
               </div>
             </div>
