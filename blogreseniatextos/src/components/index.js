@@ -1,3 +1,3 @@
-import {Footer, Header, NavBar, Top, InputPublicacion, TablaPublicaciones, CartaPublicaciones} from '../components';
+import {Footer, Header, NavBar, Top, InputPublicacion, TablaPublicaciones, CartaPublicaciones, SideBar} from '../components';
 
-export {Footer, Header, NavBar, Top, InputPublicacion, TablaPublicaciones, CartaPublicaciones};
+export {Footer, Header, NavBar, Top, InputPublicacion, TablaPublicaciones, CartaPublicaciones,SideBar};
