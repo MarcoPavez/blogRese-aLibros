@@ -21,12 +21,23 @@ export function CartaPublicaciones() {
     })
     .map((post) => {
       return (
-        <div class="col d-flex justify-content-around" id="displayPublicaciones">
-          <div id="cartas" class="card " key={post.id}>
-            <img id="imagenCartas" src={post.urlImagen} class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5>{post.titulo}</h5>
-              <p class="text-truncate">{post.cuerpo}</p>
+        <div class="col-4 d-flex justify-content-evenly" id="divCartas">
+          <div id="cartas" class="card mb-md-4" key={post.id}>
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img
+                  id="imagenCartas"
+                  src={post.urlImagen}
+                  class="card-img-top"
+                  alt="..."
+                />
+              </div>
+              <div class="col-md-6 mt-md-1">
+                <div>
+                  <h5 class="class-title text-center ms-md-5">{post.titulo}</h5>
+                  <p class="card-body" id="cuerpoCartas">{post.cuerpo}</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

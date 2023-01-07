@@ -3,7 +3,7 @@ import './styles/styles.css'
 
 const Top = () => {
     return (
-        <div id="divPaginas" class="mb-md-4">
+        <div id="divPaginas" class="d-flex justify-content-center">
             <ul id="headerNav">
                 <li>
                     <a>Home</a>
