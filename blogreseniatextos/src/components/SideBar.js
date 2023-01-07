@@ -3,7 +3,7 @@ import React from "react";
 const SideBar = () => {
   return (
     <div class="col">
-     
+      <div class="row">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Special title treatment</h5>
@@ -16,7 +16,7 @@ const SideBar = () => {
             </a>
           </div>
         </div>
-     
+      </div>
     </div>
   );
 };

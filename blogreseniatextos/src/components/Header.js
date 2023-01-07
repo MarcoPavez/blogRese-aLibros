@@ -4,7 +4,7 @@ import banner from "./img/banner.jpg";
 
 const Header = () => {
   return (
-    <div id="containerHeader">
+    <div id="containerHeader" class="mb-md-4">
       <div class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active d-flex justify-content-center">
@@ -75,7 +75,7 @@ const Header = () => {
                   </ul>
                 </li>
               </ul>
-              <form id="formNavBar" class="d-flex container" role="search">
+              <form id="formNavBar" role="search">
                 <input
                   id="inputNavBar"
                   class="form-control me-2"

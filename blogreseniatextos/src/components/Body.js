@@ -2,7 +2,7 @@ import React from "react";
 
 const Body = () => {
   return (
-    <div class="col">
+    <div class="col-8">
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Special title treatment</h5>

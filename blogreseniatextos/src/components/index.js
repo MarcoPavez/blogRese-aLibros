@@ -4,6 +4,7 @@ import NavBar from "../components/NavBar";
 import Top from "../components/Top";
 import InputPublicacion from "../components/InputPublicacion";
 import TablaPublicaciones from "../components/TablaPublicaciones";
-import SideNav from "./SideNav";
+import SideBar from "../components/SideBar"
+import Body from "./Body";
 
-export { Footer, Header, NavBar, Top, InputPublicacion, TablaPublicaciones, SideNav };
+export { Footer, Header, NavBar, Top, InputPublicacion, TablaPublicaciones, SideBar,Body};
