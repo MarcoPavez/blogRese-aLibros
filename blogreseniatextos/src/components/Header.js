@@ -15,37 +15,37 @@ const Header = () => {
 
       <div id="containerNavBar">
         <nav id="navBar" class="navbar navbar-expand-lg">
-          <div class="container-fluid">
-            <a class="navbar-brand  ms-5" href="#">
+          <div class="container-fluid ">
+            <ul>
+              <li class="text-center d-flex justify-content-center align-items-center">
+            <a
+              class="navbar-brand ms-5"
+              href="/"
+            >
               <b>LaD</b>
             </a>
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
+            </li>
+            </ul>
             <div
               class="collapse navbar-collapse ms-4 container"
               id="navbarSupportedContent"
             >
               <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">
-                    PUBLICACIONES
+                <li class="nav-item text-center">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="/Publicaciones"
+                  >
+                    Ingresa tu publicación
                   </a>
                 </li>
-                <li class="nav-item  ms-4">
+                <li class="nav-item  ms-4 d-flex align-items-center">
                   <a class="nav-link" href="#">
-                    RECURSOS
+                    Recursos
                   </a>
                 </li>
-                <li class="nav-item dropdown ms-4">
+                <li class="nav-item dropdown ms-4 d-flex align-items-center">
                   <a
                     class="nav-link dropdown-toggle"
                     href="#"
@@ -53,25 +53,23 @@ const Header = () => {
                     data-bs-toggle="dropdown"
                     aria-expanded="false"
                   >
-                    CATEGORÍAS
+                    Categorías
                   </a>
                   <ul class="dropdown-menu ms-4">
                     <li>
                       <a class="dropdown-item" href="#">
-                        LIBROS
+                        Libros
                       </a>
                     </li>
                     <li>
                       <a class="dropdown-item" href="#">
-                        PELÍCULAS
+                        Películas
                       </a>
                     </li>
-                    <li>
-                      <hr class="dropdown-divider" />
-                    </li>
+
                     <li>
                       <a class="dropdown-item" href="#">
-                        ANIME
+                        Anime
                       </a>
                     </li>
                   </ul>

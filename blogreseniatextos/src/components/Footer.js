@@ -3,7 +3,7 @@ import "./styles/styles.css";
 
 const Footer = () => {
   return (
-    <footer id="footerDiv" class="text-center fixed-bottom d-flex justify-content-center">
+    <footer id="footerDiv" class="text-center d-flex justify-content-center">
       <div>
         <div class="row">
           <div class="col-auto">

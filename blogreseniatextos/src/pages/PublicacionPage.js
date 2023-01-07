@@ -52,7 +52,7 @@ const Publicacion = () => {
   };
 
   return (
-    <div>
+    <div class="container">
       <Header />
       <InputPublicacion
         postAdd={postAdd}
@@ -60,11 +60,7 @@ const Publicacion = () => {
         setPostEditado={setPostEditado}
         postEdit={postEdit}
       />
-      <TablaPublicaciones
-        publicacion={post}
-        deletePost={postDelete}
-        setPostEditado={setPostEditado}
-      />
+
       <Footer />
     </div>
   );

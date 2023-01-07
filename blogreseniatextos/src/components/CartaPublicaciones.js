@@ -21,7 +21,7 @@ export function CartaPublicaciones() {
     })
     .map((post) => {
       return (
-        <div class="col" id="displayPublicaciones">
+        <div class="col d-flex justify-content-around" id="displayPublicaciones">
           <div id="cartas" class="card " key={post.id}>
             <img id="imagenCartas" src={post.urlImagen} class="card-img-top" alt="..." />
             <div class="card-body">

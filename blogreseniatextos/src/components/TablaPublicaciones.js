@@ -10,7 +10,8 @@ const TablaPublicaciones = ({ publicacion, deletePost, setPostEditado }) => {
             <th scope="col">Titulo</th>
             <th scope="col">Cuerpo</th>
             <th scope="col">Fecha</th>
-            <th scope="col">Imagen</th>
+            <th scope="col">URL imagen</th>
+            <th scope="col">Nombre imagen</th>
           </tr>
         </thead>
         <tbody>
@@ -20,7 +21,8 @@ const TablaPublicaciones = ({ publicacion, deletePost, setPostEditado }) => {
               <td>{publicacion.titulo}</td>
               <td>{publicacion.cuerpo}</td>
               <td>{publicacion.fecha}</td>
-              <td>{publicacion.imageData}</td>
+              <td>{publicacion.urlImagen}</td>
+              <td>{publicacion.nombreImagen}</td>
 
               <td>
                 <button
