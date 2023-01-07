@@ -17,19 +17,20 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Builder
 public class Post {
-    
+
+    /* Atributos del post */
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String titulo;
     @Column(length = 10000)
     private String cuerpo;
-    @DateTimeFormat(pattern ="yyyy-MM-dd")
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date fecha;
-    private String tipo;
-    private String nombre;
-    @Lob
-    @Column
-    private byte[] imageData;   
-    
+
+    /* Imagen del post */
+    private String urlImagen;
+    private String nombreImagen;
+
 }

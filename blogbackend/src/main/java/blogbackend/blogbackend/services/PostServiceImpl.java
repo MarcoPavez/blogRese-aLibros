@@ -36,46 +36,14 @@ public class PostServiceImpl implements PostService {
         return postRepository.save(post);
     }
 
-    /*
-     * @Override
-     * public void updatePost(Post post){
-     * postRepository.save(post);
-     * }
-     */
-
     @Override
     public List<Post> getAllPost() {
         return postRepository.findAll();
     }
 
-    /*
-     * @Override
-     * public List<Post> findDatePost(Date fecha){
-     * return postRepository.postSeleccionado(fecha);
-     * }
-     */
-
     @Override
     public void delete(Long id) {
         postRepository.deleteById(id);
-    }
-
-    public String uploadImage(MultipartFile file) throws IOException {
-
-        Post imageData = postRepository.save(Post.builder()
-                .nombre(file.getOriginalFilename())
-                .tipo(file.getContentType())
-                .imageData(ImageUtil.compressImage(file.getBytes())).build());
-        if (imageData != null) {
-            return "file uploaded successfully : " + file.getOriginalFilename();
-        }
-        return null;
-    }
-
-    public byte[] downloadImage(String fileName){
-        Optional<Post> dbImageData = postRepository.findByNombre(fileName);
-        byte[] images=ImageUtil.decompressImage(dbImageData.get().getImageData());
-        return images;
     }
 
 }

@@ -23,7 +23,7 @@ const publicacion = [
   },
 ];
 
-const Publicacion = () => {
+const TablaPublicacionesPage = () => {
   const [post, setPost] = useState(publicacion);
   const [postEditado, setPostEditado] = useState(null);
 
@@ -54,16 +54,21 @@ const Publicacion = () => {
   return (
     <div class="container">
       <Header />
+      <h1><strong>ESTA PÁGINA SÓLO DEBE SER VISTA POR EL ADMINISTRADOR, ES ALTAMENTE PELIGROSA EN LA MEDIDA QUE PUEDE ELIMINAR TODAS LAS PUBLICACIONES DE LA PÁGINA</strong></h1>
       <InputPublicacion
         postAdd={postAdd}
         postEditado={postEditado}
         setPostEditado={setPostEditado}
         postEdit={postEdit}
       />
-
+      <TablaPublicaciones
+        publicacion={post}
+        deletePost={postDelete}
+        setPostEditado={setPostEditado}
+      />
       <Footer />
     </div>
   );
 };
 
-export default Publicacion;
+export default TablaPublicacionesPage;

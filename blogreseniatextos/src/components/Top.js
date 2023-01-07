@@ -1,4 +1,4 @@
-/* import React from "react";
+import React from "react";
 import './styles/styles.css'
 
 const Top = () => {
@@ -9,7 +9,7 @@ const Top = () => {
                     <a>Home</a>
                 </li>
                 <li>
-                    <a>Sobre mí</a>
+                    <a>Nuestro equipo</a>
                 </li>
                 <li>
                     <a>Aviso legal</a>
@@ -29,4 +29,4 @@ const Top = () => {
     )
 }
 
-export default Top; */
+export default Top; 
