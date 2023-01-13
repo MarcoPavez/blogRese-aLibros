@@ -1,78 +1,92 @@
 /* Top */
 
 #divPaginas {
-   
-    float: left;
-    height: 25px;
-    width: 100%;
-    background-color: rgb(244, 244, 244);
+  float: left;
+  height: 25px;
+  width: 100%;
+  background-color: rgb(244, 244, 244);
 }
 
 #headerNav li {
-
-    list-style: none;
-    margin-left: 50px;
-    font-size: smaller;
-    float: left;
-
+  list-style: none;
+  margin-left: 50px;
+  font-size: smaller;
+  float: left;
 }
 
 /* Header */
 
-#containerHeader{
-    border-bottom-style: solid;
-    border-width: 1px;
+#containerHeader {
+  border-bottom-style: solid;
+  border-width: 1px;
 }
 
 #imagenCielo {
-    height: 200px;
-    width: 1200px;
-    border-top-style: solid;
-    border-bottom-style: double;
-    border-width: 5px;
+  height: 200px;
+  width: 1200px;
+  border-top-style: solid;
+  border-bottom-style: double;
+  border-width: 5px;
 }
 
 #formNavBar {
-    display: flex;
+  display: flex;
 }
 
 #inputNavBar {
-    margin-left: 400px;
+  margin-left: 400px;
 }
-
 
 /* Footer */
 
 #footerDiv {
-
-    border-top-style: double;
-    border-width: 3px;
+  border-top-style: double;
+  border-width: 3px;
 }
 
 /* CartaPublicaciones */
 
-#divCartas{
-    border-bottom-style: solid;
-    border-width: 1px;
+#headerPublicacionesRecientes{
+  border-bottom-style: double;
+  border-width: 5px;
+  padding-bottom: 25px;
+
 }
 
-#cartas{
-    width: 26em;
-    height: 12em;
+#divCartas {
+  
+  border-bottom-style: double;
+  border-width: 5px;
 }
 
-#imagenCartas{
-    width: 100%;
-    height: 12em;
+#cartas {
+  width: 26em;
+  height: 12em;
 }
 
-#cuerpoCartas{
-    margin-top: -18px;
+#imagenCartas {
+  width: 100%;
+  height: 12em;
+}
+
+#cuerpoCartas {
+  margin-top: -18px;
 }
 
 /* InputPublicacion */
 
-textarea{
-    height: 92.4%;
+textarea {
+  height: 92.4%;
 }
 
+/* SideBar */
+
+#sideBar{
+  height: 1000px;
+}
+
+/* SideBar */
+
+#poema{
+  font-size:0.7em;
+}
